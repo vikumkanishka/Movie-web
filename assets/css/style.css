@@ -1,0 +1,41 @@
+/* Dark Theme Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/war-tank-dark-style.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+    /* height: 91vh; */
+}
+.hero-content h1 { font-size: 3rem; font-weight: bold; }
+.hero-content p { font-size: 1.2rem; margin-top: 15px; }
+
+/* Movie Cards - Dark Theme */
+.movie-card {
+    background-color: #212121;
+    border: 1px solid #333;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.movie-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+}
+.movie-card .card-body { color: #e0e0e0; }
+.movie-card .card-text { color: #aaaaaa; }
+.movie-card .btn-primary { background-color: #e50914; border-color: #e50914; }
+.movie-card .btn-primary:hover { background-color: #b20710; border-color: #b20710; }
+
+/* Details Section - Dark Theme */
+#details-section {
+    background-color: #212121;
+    border: 1px solid #333;
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+}
