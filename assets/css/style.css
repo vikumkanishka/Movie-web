@@ -4,7 +4,7 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/war-tank-dark-style.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(..assets/img/war-tank-dark-style.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 150px;
